@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Math Calc</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container" align="center">
+    <table boder="1">
+    <tr>
+    <td>
+    <h1>Hitung Luas Persegi</h1>
+    
+    <form id="calcForm">
+      <img src="persegi.png"></img>
+      <label for="sisi-luas">Masukkan sisi</label>
+      <br>Rumus Luas : s x s</br>
+      <input type="number" id="sisi-luas" name="sisi-luas" required>
+      <button type="button" id="hitung-luas">Hitung</button>
+      <button type="reset" class="btn btn-danger" value="reset">Reset</button>
+      
+    </form>
+  
+    <h2>Hasil Perhitungan</h2>
+    <p>Luas: <span id="output-luas"></span></p>
+   
+    
+    <td>
+    <h1>Hitung Keliling Persegi</h1>
+    
+    <form id="calcForm">
+      <img src="persegi.png"></img>
+      <label for="sisi-keliling">Masukkan sisi</label>
+      <br>Rumus Keliling : 4 x s</br>
+      <input type="number" id="sisi-keliling" name="sisi-keliling" required>
+      <button type="button" id="hitung-keliling">Hitung</button>
+      <button type="reset" class="btn btn-danger" value="reset">Reset</button>
+
+    </form>
+  
+    <h2>Hasil Perhitungan</h2>
+    <p>Keliling: <span id="output-keliling"></span></p> 
+    </td>
+    </tr>
+    </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
